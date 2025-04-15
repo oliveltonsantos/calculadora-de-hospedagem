@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de logica de programação</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <section class="design-section">
+
+        <h1>Calculadora de Hospedagem</h1>
+
+        <div>
+            <p><strong>PLANO DE 1 ANO:</strong></p>
+
+            <p>Preço atual: <input type="number" name="txt1ano" id="txt1ano"></p>
+
+            <p>Preço renovação: <input type="number" name="txt1anorenovacao" id="txt1anorenovacao"></p>
+        </div>
+
+       
+        <div>
+            <p><strong>PLANO DE 2 ANOS:</strong></p>
+
+            <p>Plano atual: <input type="number" name="txt2anos" id="txt2anos"></p>
+
+            <p>Preço renovação: <input type="number" name="txt2anosrenovacao" id="txt2anosrenovacao"></p>
+        </div>
+   
+
+        <div>
+            <p><strong>PLANO DE 4 ANOS</strong></p>
+
+            <p>Preço atual: <input type="number" name="txt4anos" id="txt4anos"></p>
+
+            <p>Preço renovação: <input type="number" name="txt4anosrenovacao" id="txt4anosrenovacao"></p>
+        </div>
+
+        
+        <p><input type="button" value="Calcular" onclick="calculo()"></p>
+
+        <p><input type="button" value="Limpar" onclick="limpar()"></p>
+
+        <div class="res"></div>
+        
+    </section>
+
+    <script src="./codigo.js"></script>
+
+</body>
+</html>
